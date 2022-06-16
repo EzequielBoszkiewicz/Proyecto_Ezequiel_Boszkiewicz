@@ -26,12 +26,9 @@
 }
 main{
     background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 5rem;
 }
-.padre{
+.contenedor{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,6 +56,7 @@ h2{
     text-decoration: underline;
 }
 .card-img{
+    width: 18rem;
     padding: 1rem;
     height: 20rem;
 }
@@ -74,6 +72,8 @@ h2{
     padding-top: 3rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .form-label{
     font-size: 25px;
@@ -88,10 +88,7 @@ button{
     font-size: 1.4rem;
     color: white;
 }
-.d-block{
-    height: 30rem;
-    width: 35rem;
-}
+
 .card-img-top{
     height: 10rem;
     width: 15rem;
