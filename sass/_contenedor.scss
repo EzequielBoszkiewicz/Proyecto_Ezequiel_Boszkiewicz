@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    .carousel{
+        text-align: center;
+        &-inner img{
+            max-height: 30rem;
+        }
+        &_img{
+            width:100%;
+        }
+        &__title{
+            font-size: 2.4rem;
+            color: rgb(252, 166, 209);
+        }
+    }
+}
