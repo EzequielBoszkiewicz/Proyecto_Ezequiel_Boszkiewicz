@@ -2,7 +2,7 @@
     margin: 2rem;
     height: 40rem ;
     &-title{
-        color:rgb(252, 166, 209);
+        color: map-get($colores,"title");
         font-size: 2rem;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -11,8 +11,7 @@
         text-decoration: underline;
     }
     .title_color{
-        font-size: 1.2rem;
-        text-decoration: underline;
+        @extend .title_talle;
     }
     &-img{
         width: 18rem;
@@ -24,11 +23,11 @@
         width: 15rem;
     }
     .hotpink{
-        background-color: rgb(252, 166, 209);
+        background-color: map-get($colores,"title");
     }
 }
-.card:hover{
+    .card:hover{
     .card-img{
         transform:scale(1.2);
         transition:1s;}
-}
+    }

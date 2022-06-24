@@ -15,18 +15,27 @@
 
 .contenedor {
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem; }
   .contenedor .carousel {
     text-align: center; }
     .contenedor .carousel-inner img {
-      max-height: 30rem; }
+      max-height: 26rem; }
     .contenedor .carousel_img {
       width: 100%; }
     .contenedor .carousel__title {
       font-size: 2.4rem;
       color: #fca6d1; }
+  .contenedor .main__title {
+    color: #1d1c1c;
+    text-decoration: underline; }
+  .contenedor .main__text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.1rem;
+    color: #1d1c1c; }
 
 .card {
   margin: 2rem;
@@ -35,10 +44,7 @@
     color: #fca6d1;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-  .card .title_talle {
-    font-size: 1.2rem;
-    text-decoration: underline; }
-  .card .title_color {
+  .card .title_talle, .card .title_color {
     font-size: 1.2rem;
     text-decoration: underline; }
   .card-img {
@@ -57,8 +63,9 @@
 
 .form {
   padding-top: 3rem;
-  display: flex;
   flex-direction: column;
+  display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center; }
   .form .form_item {
@@ -76,12 +83,13 @@ footer {
   color: white;
   width: 100%;
   background-color: black;
-  display: flex;
-  justify-content: center;
   position: fixed;
   bottom: 0;
   height: 5rem;
-  align-items: center; }
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
   footer .iconos a {
     padding: 0.7rem;
     text-decoration: none;

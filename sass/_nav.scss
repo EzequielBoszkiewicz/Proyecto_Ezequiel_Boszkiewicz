@@ -2,10 +2,10 @@
     width: 100%;
     text-align: center;
     & a:hover{
-        color:rgb(252, 166, 209);
+        color:map-get($colores,"title");
     }
     .pink{
-        color:rgb(252, 166, 209) ;
+        color:map-get($colores,"title") ;
         font-size: 1.8rem;
     }
 }

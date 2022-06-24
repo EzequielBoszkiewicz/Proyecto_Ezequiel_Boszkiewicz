@@ -1,20 +1,18 @@
 footer{
-    color: white;
+    color: map-get($colores,"footerCol");
     width: 100%;
     background-color:black;
-    display: flex;
-    justify-content: center;
     position: fixed;
     bottom: 0;
     height: 5rem;
-    align-items: center;
+    @include align;
     .iconos a{
         padding: 0.7rem;
         text-decoration: none;
-        color: white;
+        color: map-get($colores,"footerCol");
         font-size: 2rem;
     }
 }
 i:hover{
-    color:rgb(252, 166, 209) ;
+    color:map-get($colores,"title") ;
 }
