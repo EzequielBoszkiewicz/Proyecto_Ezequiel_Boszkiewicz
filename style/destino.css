@@ -22,7 +22,8 @@
   .contenedor .carousel {
     text-align: center; }
     .contenedor .carousel-inner img {
-      max-height: 26rem; }
+      height: 27rem;
+      max-height: 27rem; }
     .contenedor .carousel_img {
       width: 100%; }
     .contenedor .carousel__title {
