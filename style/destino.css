@@ -29,16 +29,30 @@
     .contenedor .carousel__title {
       font-size: 2.4rem;
       color: #fca6d1; }
-  .contenedor .main__title {
-    color: #1d1c1c;
-    text-decoration: underline; }
-  .contenedor .main__text {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-size: 1.1rem;
-    color: #1d1c1c; }
+  .contenedor .section {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background-color: #fca6d1;
+    border-radius: 30px; }
+    .contenedor .section .main__img {
+      height: 14rem;
+      width: 40%;
+      display: inline; }
+    .contenedor .section .main__title {
+      color: #1d1c1c;
+      text-decoration: underline; }
+    .contenedor .section .main__text {
+      text-align: justify;
+      width: 100%;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      font-size: 1.1rem;
+      color: #1d1c1c; }
 
 .card {
+  padding: 1rem;
   margin: 2rem;
   height: 40rem; }
   .card-title {
@@ -56,13 +70,16 @@
     height: 10rem;
     width: 15rem; }
   .card .hotpink {
-    background-color: #fca6d1; }
+    background-color: #fca6d1;
+    padding: 1rem;
+    text-align: center; }
 
 .card:hover .card-img {
   transform: scale(1.2);
   transition: 1s; }
 
 .form {
+  margin-bottom: 7rem;
   padding-top: 3rem;
   flex-direction: column;
   display: flex;
@@ -72,13 +89,51 @@
   .form .form_item {
     width: 70%; }
     .form .form_item .form-label {
-      font-size: 25px; }
+      font-size: 25px;
+      display: block; }
   .form button {
+    margin-bottom: 1rem;
     font-size: 1.4rem;
     color: white; }
 
 .hotpink {
-  background-color: #fca6d1; }
+  background-color: #fca6d1;
+  padding: 1rem;
+  text-align: center; }
+
+.focus-in-contract-bck {
+  -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1; } }
+
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1; } }
 
 footer {
   color: white;
