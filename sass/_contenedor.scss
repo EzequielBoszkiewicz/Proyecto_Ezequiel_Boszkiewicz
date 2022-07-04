@@ -1,4 +1,5 @@
 .contenedor{
+    width: 80%;
     @include align;
     margin-bottom: 5rem;
     .carousel{
@@ -39,6 +40,6 @@
 
 }
 h1{
-    @include align;
+   
     padding: 1rem;
 }
