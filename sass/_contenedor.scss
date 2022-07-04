@@ -2,10 +2,11 @@
     @include align;
     margin-bottom: 5rem;
     .carousel{
+        width: 80%;
         text-align: center;
         &-inner img{
             height: 27rem;
-            max-height: 27rem;
+            width: 100%;
         }
         &_img{
             width:100%;
@@ -15,15 +16,25 @@
             color: map-get($colores,"title");
         }
     }
-    .main__title{
-        color: map-get($colores,"text") ;
-        text-decoration: underline;
-    }
-    .main__text{
-        padding-left: 3rem;
-        padding-right: 3rem;
-        font-size: 1.1rem;
-        color: map-get($colores,"text");
+    .nosotros{
+        width: 85%;
+        .main__title{
+            margin-top: 1rem;
+            font-size: 2.4rem;
+            color: map-get($colores,"text") ;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .main__text{
+            text-align: justify;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            font-size: 1.1rem;
+            color: map-get($colores,"text");
+        }
     }
 
+}
+h1{
+    @include align;
+    padding: 1rem;
 }
