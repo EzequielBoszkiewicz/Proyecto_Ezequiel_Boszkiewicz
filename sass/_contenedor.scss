@@ -16,27 +16,6 @@
             color: map-get($colores,"title");
         }
     }
-<<<<<<< HEAD
-    .section{
-        display: flex;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        padding: 1rem;
-        background-color: map-get($colores, "title") ;
-        border-radius: 30px ;
-        .main__img{
-            height: 14rem;
-            width: 40%;
-            display: inline;
-        }
-        .main__title{
-            color: map-get($colores,"text") ;
-            text-decoration: underline;
-        }
-        .main__text{
-            text-align: justify;
-            width: 100%;
-=======
     .nosotros{
         width: 85%;
         .main__title{
@@ -47,20 +26,15 @@
         }
         .main__text{
             text-align: justify;
->>>>>>> origin/master
             padding-left: 3rem;
             padding-right: 3rem;
             font-size: 1.1rem;
             color: map-get($colores,"text");
         }
     }
-<<<<<<< HEAD
-    
-=======
 
 }
 h1{
     @include align;
     padding: 1rem;
->>>>>>> origin/master
 }

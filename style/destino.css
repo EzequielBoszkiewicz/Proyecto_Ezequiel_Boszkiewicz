@@ -30,25 +30,6 @@
     .contenedor .carousel__title {
       font-size: 2.4rem;
       color: #fca6d1; }
-<<<<<<< HEAD
-  .contenedor .section {
-    display: flex;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 1rem;
-    background-color: #fca6d1;
-    border-radius: 30px; }
-    .contenedor .section .main__img {
-      height: 14rem;
-      width: 40%;
-      display: inline; }
-    .contenedor .section .main__title {
-      color: #1d1c1c;
-      text-decoration: underline; }
-    .contenedor .section .main__text {
-      text-align: justify;
-      width: 100%;
-=======
   .contenedor .nosotros {
     width: 85%; }
     .contenedor .nosotros .main__title {
@@ -58,13 +39,10 @@
       font-family: 'Times New Roman', Times, serif; }
     .contenedor .nosotros .main__text {
       text-align: justify;
->>>>>>> origin/master
       padding-left: 3rem;
       padding-right: 3rem;
       font-size: 1.1rem;
       color: #1d1c1c; }
-<<<<<<< HEAD
-=======
 
 h1 {
   display: flex;
@@ -72,7 +50,6 @@ h1 {
   align-items: center;
   justify-content: center;
   padding: 1rem; }
->>>>>>> origin/master
 
 .card {
   padding: 1rem;
