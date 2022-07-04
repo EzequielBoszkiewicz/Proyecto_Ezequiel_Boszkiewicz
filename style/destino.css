@@ -30,19 +30,22 @@
     .contenedor .carousel__title {
       font-size: 2.4rem;
       color: #fca6d1; }
-  .contenedor .nosotros {
-    width: 85%; }
-    .contenedor .nosotros .main__title {
-      margin-top: 1rem;
-      font-size: 2.4rem;
-      color: #1d1c1c;
-      font-family: 'Times New Roman', Times, serif; }
-    .contenedor .nosotros .main__text {
+  .contenedor .seccion {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    background-color: #fca6d1; }
+    .contenedor .seccion .main__img {
+      width: 40%;
+      display: inline;
+      height: 14rem; }
+    .contenedor .seccion .text {
+      padding: 1rem;
       text-align: justify;
-      padding-left: 3rem;
-      padding-right: 3rem;
-      font-size: 1.1rem;
-      color: #1d1c1c; }
+      width: 80%; }
 
 h1 {
   display: flex;
@@ -141,7 +144,7 @@ footer {
   color: white;
   width: 100%;
   margin-top: 1rem;
-  padding-top: 1rem;
+  padding: 1.5rem;
   background-color: black;
   position: fixed;
   bottom: 0;
